@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: "red Hat Display";
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container-main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px  20px 15px rgba(13, 0, 128, 0.089);
+}
+
+main img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-main-text{
+    padding: 0 0px;
+}
+
+.container-main-text h1{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px;
+    color: hsl(223, 47%, 23%);
+}
+
+.container-main-text p{
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    line-height: auto;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0 30px 0;
+}
+
+.card img{
+    width: 50px;
+}
+
+.card a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+.buttons button{
+    background-color: rgb(142, 122, 231);
+    margin:0 auto;
+    display: flex;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 1px 5px 10px rgba(38, 38, 39, 0.281);
+}
+
+.buttons a{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    padding-bottom: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    color:hsl(223, 47%, 23%);
+}
+
